@@ -1,0 +1,31 @@
+body {
+    background-color: #c9c9c9 }
+
+
+.header {
+  width: 100%;
+}
+
+
+.image {
+  display:block;
+  width: 100%;
+  margin-bottom: -13px;
+}
+
+.espacio{
+	margin-bottom: 10px;
+}
+
+.box{
+	background-color: #f9f9f9;
+}
+
+.costadito{
+	text-align: justify;
+	padding: 15px 15px 15px 15px;
+}
+
+
+
+
