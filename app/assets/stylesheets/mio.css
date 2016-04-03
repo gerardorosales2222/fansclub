@@ -3,7 +3,14 @@ body {
 
 
 .header {
-  width: 100%;
+	display: block;
+  	width: 100%;
+  	background-image: url("00011.jpg");
+}
+
+
+.h{
+	display: none;
 }
 
 
@@ -26,6 +33,18 @@ body {
 	padding: 15px 15px 15px 15px;
 }
 
+@media only screen and (max-width: 480px){
+
+	.header{
+		display: none;
+	}
 
 
+	.h{
+		display: block;
+  		width: 100%;
+		background-image: url("00012.jpg");
+	}
+
+}
 
