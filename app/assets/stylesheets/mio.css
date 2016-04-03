@@ -2,17 +2,20 @@ body {
     background-color: #c9c9c9 }
 
 
-.header {
+.grande {
 	display: block;
   	width: 100%;
-  	background-image: url("00011.jpg");
+  	background-image: url("00010.jpg");
 }
 
 
-.h{
+.mediano{ 
 	display: none;
 }
 
+.peque{
+	display: none;
+}
 
 .image {
   display:block;
@@ -33,14 +36,36 @@ body {
 	padding: 15px 15px 15px 15px;
 }
 
-@media only screen and (max-width: 480px){
 
-	.header{
+@media only screen and (max-width: 720px){
+
+	.grande{
 		display: none;
 	}
 
+	.mediano{
+		display: block;
+  		width: 100%;
+		background-image: url("00011.jpg");
+	}
 
-	.h{
+	.peque{
+		display: none;
+	}
+
+}
+
+@media only screen and (max-width: 480px){
+
+	.grande{
+		display: none;
+	}
+
+	.mediano{
+		display: none;
+	}
+
+	.peque{
 		display: block;
   		width: 100%;
 		background-image: url("00012.jpg");
